@@ -1,0 +1,9 @@
+{
+  "editor.codeActionsOnSave": { "source.organizeImports": "explicit" },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "prettier.configPath": ".prettierrc",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "[html]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" }
+}

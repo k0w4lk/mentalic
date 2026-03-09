@@ -1,0 +1,5 @@
+{
+  "src/**/*.ts": "eslint --config eslint.config.js  --fix",
+  "src/**/*.{scss}": "stylelint --config stylelint.config.mjs --fix",
+  "src/**/*.{ts,scss,html}": "prettier --write --config .prettierrc"
+}
