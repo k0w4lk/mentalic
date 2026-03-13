@@ -2,8 +2,8 @@ import type { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
   appId: 'com.example.app',
-  appName: 'ang-cap',
-  webDir: 'dist/ang-cap/browser',
+  appName: 'mentalic',
+  webDir: 'dist/mentalic/browser',
 };
 
 export default config;

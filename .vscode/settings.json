@@ -3,6 +3,7 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "prettier.configPath": ".prettierrc",
+  "eslint.workingDirectories": ["{workspaceFolder}/src"],
   "typescript.updateImportsOnFileMove.enabled": "always",
   "[html]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
   "[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" }

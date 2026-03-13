@@ -7,7 +7,7 @@ import tseslint from 'typescript-eslint';
 
 export default defineConfig([
   {
-    files: ['**/*.ts'],
+    files: ['src/**/*.ts'],
     extends: [
       eslint.configs.recommended,
       tseslint.configs.recommended,
@@ -43,7 +43,7 @@ export default defineConfig([
     },
   },
   {
-    files: ['**/*.html'],
+    files: ['src/**/*.html'],
     extends: [angular.configs.templateAll, eslintConfigPrettier],
     rules: {
       '@angular-eslint/template/i18n': 'off',
